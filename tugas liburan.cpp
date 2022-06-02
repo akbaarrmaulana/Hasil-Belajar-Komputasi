@@ -33,7 +33,7 @@ int main(){
 			
 			switch(menu){
 				case 1:
-				    float sum;
+				    float sum, data[3];
 				    
 					cout<<"\n====>=>   1.Jumlah   <=<====\n\n";
 				    cout<<"Banyaknya Data = ";cin>>n;
@@ -48,7 +48,7 @@ int main(){
 				break;
 				
 				case 2:
-					int n, data[3];
+					int n;
 				    float avr;
 				    
 				    cout<<"\n====>=>   2.Rata-rata   <=<====\n\n";
